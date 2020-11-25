@@ -7,13 +7,13 @@ permalink:        pretty
 
 # Setup
 title:            Sarah Wang
-tagline:          'hello :)'
-description:      'Hi! I'm Sarah, a first-year at Yale University. Enjoy these snapshots of my life and thoughts!'
+tagline:          "hello :)"
+descriptio:       "Hi! I'm Sarah, a first-year at Yale University. Enjoy these snapshots of my life and thoughts!"
 url:              http://swang392.github.io/
 baseurl:          /
 
 author:
-  name:           'Sarah Wang'
+  name:           "Sarah Wang"
   url:            https://twitter.com/mdo
 
 paginate:         5
