@@ -8,12 +8,12 @@ permalink:        pretty
 # Setup
 title:            Sarah Wang
 tagline:          'hello :)'
-description:      'A brazen two-column <a href="http://jekyllrb.com" target="_blank">Jekyll</a> theme that pairs a prominent sidebar with uncomplicated content. Made by <a href="https://twitter.com/mdo" target="_blank">@mdo</a>.'
+description:      'Hi! I'm Sarah, a first-year at Yale University. Enjoy these snapshots of my life and thoughts!'
 url:              http://swang392.github.io/
 baseurl:          /
 
 author:
-  name:           'Mark Otto'
+  name:           'Sarah Wang'
   url:            https://twitter.com/mdo
 
 paginate:         5
