@@ -2,9 +2,9 @@
      styles, `#sidebar-checkbox` for behavior. -->
 <input type="checkbox" class="sidebar-checkbox" id="sidebar-checkbox" {% if page.title =="Home" %}checked{% endif %}>
 
-<body class="sidebar-overlay">
 <!-- Toggleable sidebar -->
 <div class="sidebar" id="sidebar">
+<body class="sidebar-overlay">
   <div class="sidebar-item">
     <p>{{ site.description }}</p>
   </div>
@@ -36,5 +36,6 @@
       &copy; {{ site.time | date: '%Y' }}. All rights reserved.
     </p>
   </div>
-</div>
 </body>
+
+</div>
