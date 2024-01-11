@@ -1,5 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+  --tan: #ede5d3;
+  --lightgreen: #cbd5c0;
+  --green: #224b0c;
+  --accentgreen: #779066;
+}
+
 .App {
-  text-align: center;
+  /* text-align: center; */
+  min-height: 100vh;
 }
 
 .App-logo {
@@ -11,4 +21,144 @@
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
+}
+
+h3 {
+  font-family: Playfair Display;
+  color: var(--green);
+  padding: 0px;
+  margin: 0;
+  font-size: 30px;
+}
+
+h2 {
+  font-family: Playfair Display;
+  color: var(--green);
+  font-size: 40px;
+  padding: 0px;
+  margin: 0;
+}
+
+h1 {
+  font-family: Playfair Display;
+  color: var(--green);
+  font-size: 64px;
+  padding: 0px;
+  margin: 0;
+  /* font-style: bold; */
+}
+
+.navpanel {
+  /* background-color: red; */
+  font-size: 48px;
+  font-family: Playfair Display;
+}
+
+.navbar {
+  height: 100vh;
+  padding-left: 70px;
+  padding-top: 160px;
+}
+
+.navitem {
+  margin-bottom: 25px;
+}
+.navitem a {
+  color: var(--lightgreen);
+  transition: color 0.2s ease-in-out;
+  text-decoration: none;
+  height: 100px;
+}
+.navitem a:hover {
+  color: var(--green);
+}
+
+.navitem a:active {
+  color: var(--green);
+}
+
+.icon-row {
+  display: flex;
+  flex-direction: row;
+  width: 200px;
+  padding: 20px 0px;
+  justify-content: space-between;
+}
+
+svg {
+  width: 48px;
+  height: 48px;
+}
+.icon {
+  fill: var(--lightgreen);
+  transition: fill 0.2s ease-in-out;
+}
+
+.icon:hover {
+  fill: var(--green);
+}
+
+p {
+  font-family: Poppins;
+  font-size: 22px;
+}
+
+body {
+  font-family:
+    Playfair Display,
+    Poppins;
+  width: 100%;
+  min-height: 100vh;
+  background-color: var(--tan);
+}
+
+.Home {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.About {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+.Work {
+  display: flex;
+  flex-direction: row;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.Home-Content {
+  display: flex;
+  flex-direction: column;
+  padding-top: 175px;
+  width: 100%;
+  padding-right: 70px;
+}
+
+.pfp {
+  width: 380px;
+  height: 400px;
+  border-radius: 50px;
+  margin: 200px 50px;
+  align-items: center;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  padding: 100px 100px;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: var(--accentgreen);
+}
+ul {
+  margin-top: -10px;
 }
