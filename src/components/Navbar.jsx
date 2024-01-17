@@ -1,6 +1,5 @@
 import React from "react";
-// import styled from "styled-components";
-import { Outlet, Link } from "react-router-dom";
+import { Outlet, NavLink } from "react-router-dom";
 import { ReactComponent as Github } from "../assets/github.svg";
 import { ReactComponent as LinkedIn } from "../assets/linkedin.svg";
 import { ReactComponent as Gmail } from "../assets/gmail.svg";
@@ -11,13 +10,19 @@ const NavBar = () => {
       <div className="navpanel">
         <div className="navbar">
           <div className="navitem">
-            <Link to="/">sarah</Link>
+            <NavLink to="/" activeClassName="selected">
+              sarah
+            </NavLink>
           </div>
           <div className="navitem">
-            <Link to="/work">work</Link>
+            <NavLink to="/work" activeClassName="selected">
+              work
+            </NavLink>
           </div>
           <div className="navitem">
-            <Link to="/about">about</Link>
+            <NavLink to="/about" activeClassName="selected">
+              about
+            </NavLink>
           </div>
           <div class="icon-row">
             <a

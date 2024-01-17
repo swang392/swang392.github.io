@@ -4,11 +4,11 @@
   --tan: #f1ece1;
   --lightgreen: #cbd5c0;
   --green: #224b0c;
-  --accentgreen: #779066;
+  --accentgreen: #93a784;
+  --midgreen: #4d6e39;
 }
 
 .App {
-  /* text-align: center; */
   min-height: 100vh;
 }
 
@@ -45,11 +45,9 @@ h1 {
   font-size: 64px;
   padding: 0px;
   margin: 0;
-  /* font-style: bold; */
 }
 
 .navpanel {
-  /* background-color: red; */
   font-size: 48px;
   font-family: Playfair Display;
 }
@@ -74,6 +72,10 @@ h1 {
 }
 
 .navitem a:active {
+  color: var(--green);
+}
+
+.navitem .active {
   color: var(--green);
 }
 
@@ -158,6 +160,11 @@ body {
 a {
   text-decoration: none;
   color: var(--accentgreen);
+}
+a:hover {
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+  color: var(--midgreen);
 }
 ul {
   margin-top: -10px;
