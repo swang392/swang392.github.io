@@ -1,13 +1,11 @@
 import React from "react";
 import NavBar from "../components/Navbar";
 import ProfileImg from "../assets/profile.JPG";
-// import { ReactComponent as Profile } from "../assets/profile.svg";
 
 export const Home = () => {
   return (
     <div className="Home">
       <NavBar></NavBar>
-      {/* <div className="pfp"></div> */}
       <img className="pfp" src={ProfileImg} alt="it is me" />
       <div className="Home-Content">
         <h2>hello! i&apos;m</h2>
@@ -23,6 +21,4 @@ export const Home = () => {
       </div>
     </div>
   );
-  // return (
-  // );
 };

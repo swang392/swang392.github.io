@@ -1,6 +1,5 @@
 import React from "react";
 import NavBar from "../components/Navbar";
-// import Contact from "./Contact";
 
 export const About = () => {
   return (
@@ -48,23 +47,3 @@ export const About = () => {
     </div>
   );
 };
-
-// class About extends Component {
-//     render() {
-//         return (
-//         <div className="about-me">
-//             <h1 className="author"> Sarah Wang </h1>
-//             <div className="desc">
-//             Hi, I'm Sarah.
-
-//             I'm a senior at Yale studying Computer Science and Chinese.
-//             </div>
-//             <div style={{ marginTop: "15px" }}>
-//             </div>
-//             <Contact />
-//         </div>
-//         );
-//     }
-// }
-
-// export default About;
