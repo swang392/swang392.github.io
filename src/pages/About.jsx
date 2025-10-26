@@ -6,41 +6,32 @@ export const About = () => {
     <div className="About">
       <NavBar></NavBar>
       <div className="Content">
-        <p>
-          I&apos;m a student and problem-solver at heart. I enjoy trying new
-          hobbies and having meaningful conversations. I&apos;m from Virginia
-          and am currently located in New Haven.
-          <br></br>
-          <br></br>
-        </p>
         <h3>
           <b>things i like</b>
         </h3>
         <p>
           <ul>
             <li>
-              Dance—hip hop, street jazz, and house, especially! Currently
-              choreographing and dancing with{" "}
+              dance—previously choreographed and danced with{" "}
               <a href="https://www.youtube.com/@RhythmicBlueAtYale/featured">
                 Rhythmic Blue
               </a>
             </li>
+            <li>frolicking in the mountains</li>
             <li>
-              Reading—recent favorites include <i>Empire of Pain</i> by Patrick
-              Radden Keefe, <i>Before the Coffee Gets Cold</i> by Toshikazu
-              Kawaguchi, and <i>Zoo Station</i> by Christiane F.
+              reading—recent favorites include <i>Empire of Pain</i> by Patrick
+              Radden Keefe, <i>An Immense World</i> by Ed Yong, and{" "}
+              <i>My Brilliant Friend</i> by Elena Ferrante
             </li>
-            <li>Matcha</li>
-            <li>Traveling</li>
-            <li>Swimming and long walks</li>
+            <li>matcha</li>
+            <li>petting dogs, cats, cows, etc.</li>
+            <li>morning jogs</li>
+            <li>my small army of handmade ceramic duck cups</li>
             <li>
-              <a href="https://www.instagram.com/yalebisqueandglaze/">
-                Ceramics
-              </a>
-              —I&apos;m building a small army of duck cups and bowls
+              trains—especially the northeast regional amtrak, swiss federal
+              railways, and copenhagen metro{" "}
             </li>
-            <li>The Northeast Regional Amtrak</li>
-            <li>Em-dashes</li>
+            <li>em-dashes</li>
           </ul>
         </p>
       </div>

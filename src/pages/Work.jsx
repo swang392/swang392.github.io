@@ -8,8 +8,8 @@ export const Work = () => {
       <div className="Content">
         <h2>currently</h2>
         <p>
-          finding optimal Monte Carlo Tree Search variants to play Blokus for my
-          senior thesis
+          software engineer at datadog -- automating agent management and
+          sipping my afternoon hojicha
           <br></br>
           <br></br>
         </p>
