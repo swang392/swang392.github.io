@@ -13,10 +13,7 @@ export const Home = () => {
           <b>sarah wang.</b>
         </h1>
         <p>
-          I like to work on open-source and infrastructure software, solve
-          puzzles, and build things. I&apos;m a senior at Yale studying Computer
-          Science and Chinese (mostly), but I also love neuroscience and
-          creative writing.
+          i'm a software engineer, perpetual student, and curious observer.{" "}
         </p>
       </div>
     </div>
